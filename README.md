@@ -9,8 +9,14 @@ A BERT and SVM approach for the task of emotion detection from tweets. A novel B
 
 ## Model training
 
+### Training the SVM model
 
-Firstly the SVM model must be train in order to be used when building the ensemble model. 
-All the code for the BERT model and Ensemble model is found in Bert.ipynb file. The SVM model must be imported there using the pickle library.
+The SVM model is the first that must be trained. After saving the model using the pickle library, the model has to be imported when creating the ensemble model
+All the code for the SVM model and Ensemble model is found in the SVM.ipynb file.
 
-For building the ensemble model is recommended for the BERTweet version of BERT to be used.
+### Training the BERT model and the ensemble model
+Three versions of BERT have been tried: vanilla BERT, RoBERTa and BERTweet.
+
+For building the ensemble model is recommended training and using BERTweet when building the ensemble model.
+
+All the code is found in Bert.ipynb file.
