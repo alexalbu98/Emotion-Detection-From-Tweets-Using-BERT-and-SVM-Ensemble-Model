@@ -16,7 +16,5 @@ All the code for the SVM model and Ensemble model is found in the SVM.ipynb file
 
 ### Training the BERT model and the ensemble model
 Three versions of BERT have been tried: vanilla BERT, RoBERTa and BERTweet.
-
 For building the ensemble model is recommended training and using BERTweet when building the ensemble model.
-
 All the code is found in Bert.ipynb file.
