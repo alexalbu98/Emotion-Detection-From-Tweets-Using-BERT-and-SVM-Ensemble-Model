@@ -4,7 +4,7 @@ This code accompanies the paper "Emotion Detection from Tweets Using a BERT and 
 
 ## Description
 
-A BERT and SVM approach for the task of emotion detection from tweets. A novel BERT-SVM ensemble model for the task of emotion detection is introduced.
+A novel BERT-SVM ensemble model for the task of emotion detection is introduced. This model achieves state-of-the-art performance on a modified WASSA dataset.
 
 
 ## Model training
