@@ -1,4 +1,4 @@
-# Emotion-Detection-From-Tweets-Using-BERT-and-SVM
+# Emotion Detection From Tweets Using a BERT and SVM ensemble model
 
 This code accompanies the paper "**Emotion detection from tweets using a BERT and SVM ensemble model**" published in U.P.B. Sci. Bull., Series C, Vol. 84, Iss. 1, pp. 63-74, 2022.
 
