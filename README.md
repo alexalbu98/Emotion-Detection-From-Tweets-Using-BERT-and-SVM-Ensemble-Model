@@ -1,6 +1,8 @@
 # Emotion-Detection-From-Tweets-Using-BERT-and-SVM
 
-This code accompanies the paper "Emotion Detection from Tweets Using a BERT and SVM Ensemble Model".
+This code accompanies the paper "**Emotion detection from tweets using a BERT and SVM ensemble model**" published in U.P.B. Sci. Bull., Series C, Vol. 84, Iss. 1, pp. 63-74, 2022.
+
+[Paper link here.](https://www.scientificbulletin.upb.ro/rev_docs_arhiva/rez982_619644.pdf)
 
 ## Description
 
@@ -20,4 +22,4 @@ The **SVM.ipynb** contains the code for training the model capable of detecting 
 Three versions of **BERT** have been tested: vanilla BERT, RoBERTa and **BERTweet**.
 For building the ensemble model is recommended training and using **BERTweet** as this flavour of BERT has been shown to offer best performance when working with tweets.  
 The code for training the model on WASSA dataset is inside the **Bert_wassa.ipynb** file. Also the coresponding ensemble model for WASSA dataset is built here.  
-The BERT and esemble model able to detect neutral emotions can be trained using **Bert.ipynb**.
+The BERT and ensemble model able to detect neutral emotions can be trained using **Bert.ipynb**.
